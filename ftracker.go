@@ -83,7 +83,7 @@ const (
 func RunningSpentCalories(action int, weight, duration float64) float64 {
 	// ваш код здесь
 
-	calories := (float64(runningCaloriesMeanSpeedMultiplier) * meanSpeed(action, duration) * runningCaloriesMeanSpeedShift) * weight / mInKM * duration * minInH
+	calories := (float64(runningCaloriesMeanSpeedMultiplier) * meanSpeed(action, duration) * runningCaloriesMeanSpeedShift) * weight / mInKm * duration * minInH
 	return calories
 }
 
